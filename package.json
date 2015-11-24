@@ -1,0 +1,27 @@
+{
+  "name": "classfiedapp",
+  "version": "1.0.0",
+  "description": "todoapp classified",
+  "main": "index.js",
+  "scripts": {
+    "test": "hellow classified"
+  },
+  "author": "Muhammad Tanveer Yousuf",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0-beta.0",
+    "body-parser": "^1.14.1",
+    "ejs": "^2.3.4",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-typescript": "^2.9.0",
+    "gulp-watch": "^4.3.5",
+    "mongojs": "^1.3.0",
+    "mongoose": "^4.2.7",
+    "morgan": "^1.6.1"
+  }
+}

@@ -1,0 +1,63 @@
+<% include header.ejs %>
+
+ <!--main sub page heading-->
+    <section id="page-head">
+        <div class="container">
+            <div class="row col-md-12">
+                <div class="page-heading">
+                    <h1>LOGIN</h1>
+                    <h4>Login Required</h4>
+                </div>
+            </div>
+        </div>
+    </section><!--end main page heading-->
+    <section id="formSubmit">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                    <div class="user-form">
+                        <div class="user-form-set">
+                            <h4>LOGIN</h4>
+                            <form method="post" class="form-group">
+                                <div class="form-input">
+                                    <span class="fa fa-user form-control-feedback"></span>
+                                    <input class="form-control" type="text" name="name" placeholder="User Name or Email">
+                                </div>
+                                <div class="form-input">
+                                    <span class="fa fa-unlock-alt form-control-feedback"></span>
+                                    <input class="form-control" type="password" name="password" placeholder="Password">
+                                </div>
+                                <div class="form-input">
+                                    <input type="checkbox">
+                                    <label>Remember me</label>
+                                </div>
+                                <div class="form-input">
+                                    <input type="submit" name="login" value="login">
+                                </div>
+                                <div class="form-input">
+                                    <p><a href="#">Forgot Password?</a></p>
+                                </div>
+                            </form>
+                          <!--  <div class="social-login">
+                                <h4>LOGIN VIA SOCIAL ACCOUNT</h4>
+                                <div class="social-accounts">
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </div>
+                            </div>-->
+                            <p>Are you a new here? <a href="/register" class="col">Get Register Free</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<% include footer.ejs %>

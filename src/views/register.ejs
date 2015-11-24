@@ -1,0 +1,73 @@
+<% include header.ejs %>
+<div ng-controller="regCtrl">
+ <!--main sub page heading-->
+    <section id="page-head">
+        <div class="container">
+            <div class="row col-md-12">
+                <div class="page-heading">
+                    <h1>LOGIN</h1>
+                    <h4>Login Required</h4>
+                </div>
+            </div>
+        </div>
+    </section><!--end main page heading-->
+    <section id="formSubmit">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                    <div class="user-form">
+                        <div class="user-form-set">
+                            <h4>REGISTER</h4>
+                            <form  class="form-group">
+                                <div class="form-input">
+                                    <span class="fa fa-user form-control-feedback"></span>
+                                    <input class="form-control" type="text" ng-model="contact.userName" name="userName" placeholder="User Name">
+                                </div>
+                               <!-- <div class="form-input">
+                                    <span class="fa fa-unlock-alt form-control-feedback"></span>
+                                    <input class="form-control" type="password"  name="password" placeholder="Password">
+                                </div>-->
+                                <div class="form-input">
+                                    <span class="fa fa-user form-control-feedback"></span>
+                                    <input class="form-control" type="text" ng-model="contact.userEmail" name="name" placeholder="User Email">
+                                </div>
+                                <div class="form-input">
+                                    <span class="fa fa-unlock-alt form-control-feedback"></span>
+                                    <input class="form-control" type="password" ng-model="contact.userPassword" name="userPassword" placeholder="Password">
+                                </div>
+                                <div class="form-input">
+                                    <input type="checkbox">
+                                    <label>Remember me</label>
+                                </div>
+                                <div class="form-input">
+                                    <input type="submit" name="register" value="Register Now" ng-click="addContact()">
+                                </div>
+                            </form>
+                            <!--<div class="social-login">
+                                <h4>LOGIN VIA SOCIAL ACCOUNT</h4>
+                                <div class="social-accounts">
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Login with Social</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+<% include footer.ejs %>
+
+<script src="controllers/register.js"></script>
