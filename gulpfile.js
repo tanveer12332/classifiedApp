@@ -3,7 +3,6 @@ var ts = require('gulp-typescript');
 var rimraf = require('gulp-rimraf');
 var nodemon = require('gulp-nodemon');
 
-
 gulp.task('cleanBuildDir', function(){
 	return gulp.src('public').pipe(rimraf());
 });
